@@ -16,11 +16,13 @@
 
 @implementation AppDelegate
 
-@synthesize navigationController = _navigationController;
+//@synthesize navigationController = _navigationController;
 
 @synthesize window = _window;
 
 //@synthesize splitViewController = _splitViewController;
+// implementamos navigationviwecontroller
+@synthesize navigationController = _navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

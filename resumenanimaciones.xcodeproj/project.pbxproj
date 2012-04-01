@@ -19,6 +19,10 @@
 		C689B970152820B500D6CA55 /* vista2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C689B96E152820B500D6CA55 /* vista2.xib */; };
 		C689B9731528211800D6CA55 /* arrowlineleft.png in Resources */ = {isa = PBXBuildFile; fileRef = C689B9711528211800D6CA55 /* arrowlineleft.png */; };
 		C689B9741528211800D6CA55 /* arrowlineright.png in Resources */ = {isa = PBXBuildFile; fileRef = C689B9721528211800D6CA55 /* arrowlineright.png */; };
+		C689B97715282FE300D6CA55 /* bombillaof.png in Resources */ = {isa = PBXBuildFile; fileRef = C689B97515282FE300D6CA55 /* bombillaof.png */; };
+		C689B97815282FE300D6CA55 /* bombillaon.png in Resources */ = {isa = PBXBuildFile; fileRef = C689B97615282FE300D6CA55 /* bombillaon.png */; };
+		C689B97A1528303D00D6CA55 /* electricidad1.wav in Resources */ = {isa = PBXBuildFile; fileRef = C689B9791528303D00D6CA55 /* electricidad1.wav */; };
+		C689B97C1528308000D6CA55 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689B97B1528308000D6CA55 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		C689B96E152820B500D6CA55 /* vista2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vista2.xib; sourceTree = "<group>"; };
 		C689B9711528211800D6CA55 /* arrowlineleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowlineleft.png; sourceTree = "<group>"; };
 		C689B9721528211800D6CA55 /* arrowlineright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowlineright.png; sourceTree = "<group>"; };
+		C689B97515282FE300D6CA55 /* bombillaof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombillaof.png; sourceTree = "<group>"; };
+		C689B97615282FE300D6CA55 /* bombillaon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bombillaon.png; sourceTree = "<group>"; };
+		C689B9791528303D00D6CA55 /* electricidad1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = electricidad1.wav; sourceTree = "<group>"; };
+		C689B97B1528308000D6CA55 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C689B97C1528308000D6CA55 /* AVFoundation.framework in Frameworks */,
 				C689B94115281E6A00D6CA55 /* UIKit.framework in Frameworks */,
 				C689B94315281E6A00D6CA55 /* Foundation.framework in Frameworks */,
 				C689B94515281E6A00D6CA55 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +85,7 @@
 		C689B93F15281E6A00D6CA55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C689B97B1528308000D6CA55 /* AVFoundation.framework */,
 				C689B94015281E6A00D6CA55 /* UIKit.framework */,
 				C689B94215281E6A00D6CA55 /* Foundation.framework */,
 				C689B94415281E6A00D6CA55 /* CoreGraphics.framework */,
@@ -91,6 +101,9 @@
 				C689B96315281F2F00D6CA55 /* vista1.h */,
 				C689B96415281F2F00D6CA55 /* vista1.m */,
 				C689B96515281F2F00D6CA55 /* vista1.xib */,
+				C689B97515282FE300D6CA55 /* bombillaof.png */,
+				C689B97615282FE300D6CA55 /* bombillaon.png */,
+				C689B9791528303D00D6CA55 /* electricidad1.wav */,
 				C689B96C152820B500D6CA55 /* vista2.h */,
 				C689B96D152820B500D6CA55 /* vista2.m */,
 				C689B96E152820B500D6CA55 /* vista2.xib */,
@@ -168,6 +181,9 @@
 				C689B970152820B500D6CA55 /* vista2.xib in Resources */,
 				C689B9731528211800D6CA55 /* arrowlineleft.png in Resources */,
 				C689B9741528211800D6CA55 /* arrowlineright.png in Resources */,
+				C689B97715282FE300D6CA55 /* bombillaof.png in Resources */,
+				C689B97815282FE300D6CA55 /* bombillaon.png in Resources */,
+				C689B97A1528303D00D6CA55 /* electricidad1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
