@@ -13,10 +13,12 @@
 		C689B94B15281E6B00D6CA55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C689B94915281E6B00D6CA55 /* InfoPlist.strings */; };
 		C689B94D15281E6B00D6CA55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B94C15281E6B00D6CA55 /* main.m */; };
 		C689B95115281E6B00D6CA55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B95015281E6B00D6CA55 /* AppDelegate.m */; };
-		C689B95415281E6B00D6CA55 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B95315281E6B00D6CA55 /* MasterViewController.m */; };
-		C689B95715281E6B00D6CA55 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B95615281E6B00D6CA55 /* DetailViewController.m */; };
-		C689B95A15281E6B00D6CA55 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C689B95815281E6B00D6CA55 /* MasterViewController.xib */; };
-		C689B95D15281E6B00D6CA55 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C689B95B15281E6B00D6CA55 /* DetailViewController.xib */; };
+		C689B96615281F2F00D6CA55 /* vista1.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B96415281F2F00D6CA55 /* vista1.m */; };
+		C689B96715281F2F00D6CA55 /* vista1.xib in Resources */ = {isa = PBXBuildFile; fileRef = C689B96515281F2F00D6CA55 /* vista1.xib */; };
+		C689B96F152820B500D6CA55 /* vista2.m in Sources */ = {isa = PBXBuildFile; fileRef = C689B96D152820B500D6CA55 /* vista2.m */; };
+		C689B970152820B500D6CA55 /* vista2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C689B96E152820B500D6CA55 /* vista2.xib */; };
+		C689B9731528211800D6CA55 /* arrowlineleft.png in Resources */ = {isa = PBXBuildFile; fileRef = C689B9711528211800D6CA55 /* arrowlineleft.png */; };
+		C689B9741528211800D6CA55 /* arrowlineright.png in Resources */ = {isa = PBXBuildFile; fileRef = C689B9721528211800D6CA55 /* arrowlineright.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +32,14 @@
 		C689B94E15281E6B00D6CA55 /* resumenanimaciones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "resumenanimaciones-Prefix.pch"; sourceTree = "<group>"; };
 		C689B94F15281E6B00D6CA55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C689B95015281E6B00D6CA55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C689B95215281E6B00D6CA55 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C689B95315281E6B00D6CA55 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C689B95515281E6B00D6CA55 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C689B95615281E6B00D6CA55 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		C689B95915281E6B00D6CA55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
-		C689B95C15281E6B00D6CA55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		C689B96315281F2F00D6CA55 /* vista1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vista1.h; sourceTree = "<group>"; };
+		C689B96415281F2F00D6CA55 /* vista1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vista1.m; sourceTree = "<group>"; };
+		C689B96515281F2F00D6CA55 /* vista1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vista1.xib; sourceTree = "<group>"; };
+		C689B96C152820B500D6CA55 /* vista2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vista2.h; sourceTree = "<group>"; };
+		C689B96D152820B500D6CA55 /* vista2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vista2.m; sourceTree = "<group>"; };
+		C689B96E152820B500D6CA55 /* vista2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vista2.xib; sourceTree = "<group>"; };
+		C689B9711528211800D6CA55 /* arrowlineleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowlineleft.png; sourceTree = "<group>"; };
+		C689B9721528211800D6CA55 /* arrowlineright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowlineright.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,12 +88,12 @@
 			children = (
 				C689B94F15281E6B00D6CA55 /* AppDelegate.h */,
 				C689B95015281E6B00D6CA55 /* AppDelegate.m */,
-				C689B95215281E6B00D6CA55 /* MasterViewController.h */,
-				C689B95315281E6B00D6CA55 /* MasterViewController.m */,
-				C689B95515281E6B00D6CA55 /* DetailViewController.h */,
-				C689B95615281E6B00D6CA55 /* DetailViewController.m */,
-				C689B95815281E6B00D6CA55 /* MasterViewController.xib */,
-				C689B95B15281E6B00D6CA55 /* DetailViewController.xib */,
+				C689B96315281F2F00D6CA55 /* vista1.h */,
+				C689B96415281F2F00D6CA55 /* vista1.m */,
+				C689B96515281F2F00D6CA55 /* vista1.xib */,
+				C689B96C152820B500D6CA55 /* vista2.h */,
+				C689B96D152820B500D6CA55 /* vista2.m */,
+				C689B96E152820B500D6CA55 /* vista2.xib */,
 				C689B94715281E6B00D6CA55 /* Supporting Files */,
 			);
 			path = resumenanimaciones;
@@ -98,6 +102,8 @@
 		C689B94715281E6B00D6CA55 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C689B9711528211800D6CA55 /* arrowlineleft.png */,
+				C689B9721528211800D6CA55 /* arrowlineright.png */,
 				C689B94815281E6B00D6CA55 /* resumenanimaciones-Info.plist */,
 				C689B94915281E6B00D6CA55 /* InfoPlist.strings */,
 				C689B94C15281E6B00D6CA55 /* main.m */,
@@ -158,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C689B94B15281E6B00D6CA55 /* InfoPlist.strings in Resources */,
-				C689B95A15281E6B00D6CA55 /* MasterViewController.xib in Resources */,
-				C689B95D15281E6B00D6CA55 /* DetailViewController.xib in Resources */,
+				C689B96715281F2F00D6CA55 /* vista1.xib in Resources */,
+				C689B970152820B500D6CA55 /* vista2.xib in Resources */,
+				C689B9731528211800D6CA55 /* arrowlineleft.png in Resources */,
+				C689B9741528211800D6CA55 /* arrowlineright.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +180,8 @@
 			files = (
 				C689B94D15281E6B00D6CA55 /* main.m in Sources */,
 				C689B95115281E6B00D6CA55 /* AppDelegate.m in Sources */,
-				C689B95415281E6B00D6CA55 /* MasterViewController.m in Sources */,
-				C689B95715281E6B00D6CA55 /* DetailViewController.m in Sources */,
+				C689B96615281F2F00D6CA55 /* vista1.m in Sources */,
+				C689B96F152820B500D6CA55 /* vista2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,22 +194,6 @@
 				C689B94A15281E6B00D6CA55 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C689B95815281E6B00D6CA55 /* MasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C689B95915281E6B00D6CA55 /* en */,
-			);
-			name = MasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		C689B95B15281E6B00D6CA55 /* DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C689B95C15281E6B00D6CA55 /* en */,
-			);
-			name = DetailViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

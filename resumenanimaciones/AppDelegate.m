@@ -8,18 +8,47 @@
 
 #import "AppDelegate.h"
 
-#import "MasterViewController.h"
+//#import "MasterViewController.h"
 
-#import "DetailViewController.h"
+//#import "DetailViewController.h"
+
+#import "vista1.h"
 
 @implementation AppDelegate
 
+@synthesize navigationController = _navigationController;
+
 @synthesize window = _window;
-@synthesize splitViewController = _splitViewController;
+
+//@synthesize splitViewController = _splitViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    
+    vista1 *v1 = [[vista1 alloc] initWithNibName:@"vista1" bundle:nil];
+    
+    //creamos el navigation controller
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:v1];
+    
+    //--oculto la barra de navegacion
+    [self.navigationController setNavigationBarHidden:YES];
+    
+    self.window.rootViewController = self.navigationController;
+    
+    
+    //muestro la barra de estatus, o la oculto
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    [self.window makeKeyAndVisible];
+    return YES;
+    
+
+    
+  /*  
+   
+   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 
     MasterViewController *masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
@@ -36,7 +65,12 @@
     self.window.rootViewController = self.splitViewController;
     [self.window makeKeyAndVisible];
     return YES;
+   
+   
+   */
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

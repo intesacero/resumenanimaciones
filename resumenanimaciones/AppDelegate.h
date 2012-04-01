@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) UISplitViewController *splitViewController;
+//@property (strong, nonatomic) UISplitViewController *splitViewController;
+
+@property (strong, nonatomic) UINavigationController *navigationController;
+
 
 @end
